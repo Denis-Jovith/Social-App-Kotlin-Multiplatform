@@ -41,7 +41,14 @@ val Typography = Typography (
         fontSize = 16.sp
     ),
     body2 = TextStyle(
-
+        fontFamily = OpenSans,
+        fontWeight = FontWeight.Normal,
+        fontSize = 14.sp
+    ),
+    button = TextStyle(
+       fontFamily = Lexend,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 15.sp
     )
 )
 
