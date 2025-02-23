@@ -11,8 +11,12 @@ fun SocialAppTheme(
 ){
     val colors = if (darkTheme) DarkColors else LightColors
     MaterialTheme(
-        colors = colors,
-        shapes = Shapes,
+        colorScheme = colors,
+        shapes = androidx.compose.material3.Shapes(
+            extraSmall = Shapes.extraSmall,
+            small = Shapes.small,
+            medium = Shapes.medium
+            ),
         typography = Typography,
         content = content
     )
