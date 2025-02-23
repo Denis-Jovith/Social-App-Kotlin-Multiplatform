@@ -9,3 +9,7 @@ fun SignUpScreen(
 ) {
 
 }
+
+data class SignUpUiState(
+
+)
