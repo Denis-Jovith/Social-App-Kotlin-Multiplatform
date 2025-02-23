@@ -11,6 +11,7 @@ fun SignUpScreen(
     onUsernameChange:(String) -> Unit,
     onEmailChange:(String) -> Unit,
     onPasswordChange:(String) -> Unit,
+
 ) {
 
 
