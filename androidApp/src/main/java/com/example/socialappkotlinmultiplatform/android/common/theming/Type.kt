@@ -20,40 +20,40 @@ val OpenSans = FontFamily(
 )
 
 val Typography = Typography (
-    h6 = TextStyle (
+    titleLarge = TextStyle (
         fontFamily = Lexend,
         fontWeight = FontWeight.Bold,
         fontSize = 21.sp
     ),
-    subtitle1 = TextStyle(
+    titleMedium = TextStyle(
         fontFamily = Lexend,
         fontWeight = FontWeight.SemiBold,
         fontSize = 18.sp
     ),
-    subtitle2 = TextStyle(
+    titleSmall = TextStyle(
         fontFamily = Lexend,
         fontWeight = FontWeight.Medium,
         fontSize = 14.sp
     ),
-    body1 = TextStyle(
+    bodyLarge = TextStyle(
         fontFamily = OpenSans,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp
     ),
-    body2 = TextStyle(
+    bodyMedium = TextStyle(
         fontFamily = OpenSans,
         fontWeight = FontWeight.Normal,
         fontSize = 14.sp
     ),
-    button = TextStyle(
+    labelLarge = TextStyle(
        fontFamily = Lexend,
         fontWeight = FontWeight.SemiBold,
         fontSize = 15.sp
     ),
-    caption = TextStyle(
+    labelMedium = TextStyle(
         fontFamily = OpenSans
     ),
-    overline = TextStyle(
+    labelSmall = TextStyle(
         fontFamily = OpenSans
     )
 )
