@@ -49,6 +49,9 @@ val Typography = Typography (
        fontFamily = Lexend,
         fontWeight = FontWeight.SemiBold,
         fontSize = 15.sp
-    )
+    ),
+    caption = TextStyle(
+        fontFamily = OpenSans
+    ),
 )
 
