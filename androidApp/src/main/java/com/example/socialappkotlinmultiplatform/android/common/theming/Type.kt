@@ -1,8 +1,11 @@
 package com.example.socialappkotlinmultiplatform.android.common.theming
 
+import androidx.compose.material3.Typography
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
 import com.example.socialappkotlinmultiplatform.android.R
 
 val Lexend = FontFamily(
@@ -14,5 +17,31 @@ val Lexend = FontFamily(
 val OpenSans = FontFamily(
     Font(R.font.lexend_light,FontWeight.Light),
     Font(R.font.lexend_legular,FontWeight.Normal)
+)
+
+val Typography = Typography (
+    h6 = TextStyle (
+        fontFamily = Lexend,
+        fontWeight = FontWeight.Bold,
+        fontSize = 21.sp
+    ),
+    subtitle1 = TextStyle(
+        fontFamily = Lexend,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 18.sp
+    ),
+    subtitle2 = TextStyle(
+        fontFamily = Lexend,
+        fontWeight = FontWeight.Medium,
+        fontSize = 14.sp
+    ),
+    body1 = TextStyle(
+        fontFamily = OpenSans,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp
+    ),
+    body2 = TextStyle(
+
+    )
 )
 
