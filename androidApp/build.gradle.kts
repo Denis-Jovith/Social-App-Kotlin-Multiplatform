@@ -44,4 +44,21 @@ dependencies {
     implementation(libs.compose.material3)
     implementation(libs.androidx.activity.compose)
     debugImplementation(libs.compose.ui.tooling)
+
+
+    implementation("io.github.raamcosta.compose-destinations:core:<version>")
+    ksp("io.github.raamcosta.compose-destinations:ksp:<version>")
+
+    implementation("androidx.core:core-splashscreen:1.0.0")
+
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+
+    implementation("io.insert-koi:-androidx-compose:3.4.1")
+
+    implementation("androidx.lifecycle:lifecyle-runtime-compose:2.6.1")
+
+    implementation("com.google.accompanist:accompanist-systemuicontroller:0.28.0")
+
+
+
 }
