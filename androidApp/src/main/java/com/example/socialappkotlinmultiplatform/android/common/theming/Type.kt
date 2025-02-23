@@ -8,6 +8,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.example.socialappkotlinmultiplatform.android.R
 
+
 val Lexend = FontFamily(
     Font(R.font.lexend_medium, FontWeight.Medium),
     Font(R.font.lexend_semi_bold,FontWeight.SemiBold),
