@@ -11,5 +11,5 @@ fun SignUpScreen(
 }
 
 data class SignUpUiState(
-
+ var username:String = ""
 )
