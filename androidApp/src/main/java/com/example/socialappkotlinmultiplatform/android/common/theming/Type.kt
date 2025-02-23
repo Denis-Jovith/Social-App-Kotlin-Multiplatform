@@ -53,5 +53,8 @@ val Typography = Typography (
     caption = TextStyle(
         fontFamily = OpenSans
     ),
+    overline = TextStyle(
+        fontFamily = OpenSans
+    )
 )
 
